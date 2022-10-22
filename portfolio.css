@@ -1,0 +1,240 @@
+@import url(http://fonts.googleapis.com/css?family=Poppins:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+:root {
+    --blue-text: #86ddff;
+    --dark-blue: #002b8f;
+    --mid-blue: #3ba0ff;
+}
+
+/* NAVBAR SECTION */
+#mobile-nav {
+    display: none;
+}
+
+.nav-bar {
+    position: sticky;
+    z-index: 2;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    list-style: none;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+li a {
+    display: block;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#name {
+    color: var(--blue-text);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*PROJECT SECTION*/
+
+.project-container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+}
+
+.project-header {
+    font-size: 4rem;
+    color: rgb(6, 6, 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.ios-project {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/images/ios.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.android-project {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/images/android.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.web-project {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/images/webb.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.androidlia-project {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/images/android.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-container {
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.text-container:hover {
+    height: 250px;
+}
+
+.name {
+    margin-top: 10px;
+    color: var(--dark-blue);
+    font-size: 2rem;
+}
+
+.content {
+    padding: 25px, 0;
+    color: var(--mid-blue);
+}
+
+.button {
+    border: 5px solid var(--blue-text);
+    width: 160px;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+
+/*MOBILE VIEW*/
+@media (max-width: 768px) {
+    #nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: block;
+    }
+    .mobile-nav-bar {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        z-index: 5;
+    }
+
+    ul {
+        background-color: rgba(0, 0, 0, 9);
+    }
+
+    .project-header {
+        font-size: 3.5rem;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .web-project {
+        width: 300px;
+        height: 450px;
+        background: #fff;
+        position:relative;
+        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: 50px;
+        background-image: url(/images/webb.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .ios-project {
+        width: 300px;
+        height: 450px;
+        background: #fff;
+        position: relative;
+        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: 50px;
+        background-image: url(/images/ios.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .android-project {
+        width: 300px;
+        height: 450px;
+        background: #fff;
+        position: relative;
+        box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: 50px;
+        background-image: url(/images/android.jpg);
+        background-size: cover;
+        background-position: center;
+  
+    }
+
+    .text-container:hover {
+        height: 300px;
+    }
+     
+}
+
+
