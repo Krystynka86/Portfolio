@@ -63,7 +63,7 @@ li a {
 
 .image-container {
     position: relative;
-    background-image: url(/images/workspace.jpg);
+    background-image: url(images/workspace.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -148,7 +148,7 @@ li a {
 .about-image {
     height: 400px;
     width: 300px;
-    background-image: url(/images/krystyna.JPG);
+    background-image: url(images/krystyna.JPG);
     background-size: cover;
     background-position: center;
 }
