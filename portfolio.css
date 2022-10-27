@@ -85,7 +85,7 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(/images/ios.jpg);
+    background-image: url(images/ios.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -98,7 +98,7 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(/images/android.jpg);
+    background-image: url(images/android.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -111,7 +111,7 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(/images/webb.jpg);
+    background-image: url(images/webb.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -124,7 +124,7 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(/images/android.jpg);
+    background-image: url(images/android.jpg);
     background-size: cover;
     background-position: center;
 }
